@@ -1,0 +1,155 @@
+<?php wp_footer(); ?>
+
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery-3.3.1.min.js?ver=4.9.8'></script>
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.maskedinput.min.js?ver=4.9.8'></script>
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/slick.min.js?ver=4.9.8'></script>
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.nice-select.min.js?ver=4.9.8'></script>
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/handlebars-v4.0.11.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://api-maps.yandex.ru/2.1/?lang=ru_RU&#038;ver=4.9.8'></script>
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/main.min.js?ver=4.9.8'></script>
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/lightbox.min.js?ver=4.9.8'></script>
+<script type='text/javascript'
+    src='<?php echo esc_url( get_template_directory_uri() ); ?>/js/calltouch.js?ver=4.9.8'></script>
+<script>
+    lightbox.option({
+        'resizeDuration': 400,
+        'wrapAround': true,
+        'showImageNumberLabel': false
+    })
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('.agree').prop('checked', false);
+    })
+</script>
+
+<?php include_once("analyticstracking.php") ?>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    var ip_address = { ip: "<?= $_SERVER['REMOTE_ADDR']; ?>" };
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+        m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(62426647, "init", {
+        params: window.ip_address,
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/62426647" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<?php
+    $path = "clickfrogru_tcp.php";
+    include_once($path);
+  ?>
+<a href="//scroogefrog.com/en/11897"><img src="//stat.clickfrog.ru/img/clfg_ref/icon_0.png"
+        alt="click fraud detection"></a>
+<div id="clickfrog_counter_container" style="width:0px;height:0px;overflow:hidden;"></div>
+<script
+    type="text/javascript">(function (d, w) { var clickfrog = function () { if (!d.getElementById('clickfrog_js_container')) { var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.src = "//stat.clickfrog.ru/c.js?r=" + Math.random(); sc.id = 'clickfrog_js_container'; var c = document.getElementById('clickfrog_counter_container'); c.parentNode.insertBefore(sc, c); } }; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", clickfrog, false); } else { clickfrog(); } })(document, window);</script>
+<noscript>
+    <div style="width:0px;height:0px;overflow:hidden;"><img src="//stat.clickfrog.ru/no_script.php?img"
+            style="width:0px; height:0px;" alt="" /></div>
+</noscript>
+<script type="text/javascript">var clickfrogru_uidh = '301911b304b422e415358a4964fbafe1';</script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Organization",
+      "name": "«ДомСлом»",
+     
+    "logo": "https://dslom.ru/wp-content/themes/gidro/img/svg/logo.svg",
+      "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Москва",
+      "addressRegion": "Москва",
+      "postalCode": "119021",
+      "streetAddress": "ул. Тимура Фрунзе, д. 11"
+    },
+    "email": "info@dslom.ru",
+    "url": "https://dslom.ru/",
+      "description": "Решаем задачи любой сложности: от разборки небольших пристроек до сноса ангаров и производственных цехов.",
+    "telephone": "+7 (495) 877-58-90",
+    "aggregateRating": {
+         "@type": "AggregateRating",
+         "ratingValue": "5",
+     "bestRating" :" 5 ",
+         "worstRating" : "1",
+         "reviewCount": "5"
+},
+    "contactPoint":
+    {
+      "@type" : "ContactPoint",
+      "telephone":  "+7 (495) 877-58-90",
+      "contactType":  "customer service"
+      }
+  
+    }
+    </script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "LocalBusiness",
+
+"priceRange": "от 20000 руб.",
+ "name": "«ДомСлом»",
+     
+    "image": "https://dslom.ru/wp-content/themes/gidro/img/svg/logo.svg",
+      "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Москва",
+      "addressRegion": "Москва",
+      "postalCode": "119021",
+      "streetAddress": "ул. Тимура Фрунзе, д. 11"
+    },
+    "email": "info@dslom.ru",
+    "url": "https://dslom.ru/",
+      "description": "Решаем задачи любой сложности: от разборки небольших пристроек до сноса ангаров и производственных цехов.",
+    "telephone": "+7 (495) 877-58-90",
+    "aggregateRating": {
+         "@type": "AggregateRating",
+         "ratingValue": "5",
+     "bestRating" :" 5 ",
+         "worstRating" : "1",
+         "reviewCount": "5"
+},
+    "contactPoint":
+    {
+      "@type" : "ContactPoint",
+      "telephone":  "+7 (495) 877-58-90",
+      "contactType":  "customer service"},
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "07:00",
+    "closes": "21:00"
+  }
+]
+}
+</script>
+</body>
+
+</html>
